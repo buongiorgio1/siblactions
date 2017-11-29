@@ -1,0 +1,220 @@
+/*
+
+color palette:
+#b4d7d4 #314701 #6d8008 #fbcc38 #f5880d
+
+*/
+
+/*.css-selector {*/
+/*	font-family: 'Heebo', sans-serif;*/
+/*	font-family: 'Libre Baskerville', serif;*/
+/*}*/
+
+:root {
+	--color-palette1: #b4d7d4;
+	--color-palette2: #314701;
+	--color-palette3: #6d8008;
+	--color-palette4: #fbcc38;
+	--color-palette5: #f5880d;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Heebo', sans-serif;
+	
+	
+}
+
+/*.one {*/
+/*  color: white;*/
+/*  background-color: var(--main-bg-color);*/
+/*}*/
+
+.border {
+	border: 1px solid black;
+	color: #0f0;
+	padding: 10px;
+	/*margin: 10px 15px 20px 30px;*/
+	margin:auto;
+	display: flex;
+	/*max-width: 1290px;*/
+}
+nav {
+	/*width: 100%;*/
+	position: relative;
+	top: 0;
+	max-width: 1290px;
+	text-align: center;
+	z-index: 40;
+	margin:auto;
+	max-height: 30px;
+	background-color: var(--color-palette2);
+	align-content: center;
+	padding-right:  30px;
+	display: flex;
+	/*color: #0f0;*/
+	
+}
+nav ul {
+	width: 80%;
+	margin: 0 auto;
+	/*max-width: 1100px;*/
+	text-align: center;
+	text-decoration: none;
+	background-color: var(--color-palette2); /* #36454F*/
+	/*display: inline-block;*/
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	list-style: none;
+	/*color: #000;*/
+	/*align-content: space-around;*/
+	/*padding: 10px;*/
+}
+
+nav ul li {
+	list-style-type: none;
+	
+	/*margin:auto;*/
+}
+nav ul li a {
+	padding: 7px;
+	display: block;
+	
+}
+nav ul li a:link {
+	text-decoration: none;
+	color: #0f0;
+}
+nav ul li a:visited {
+	text-decoration: none;
+	color: #d3d3d3;
+	text-decoration: line-through;
+}
+nav ul li a:hover {
+	background-color: #fff;
+	color: black;
+	
+}
+
+header {
+	/*margin-top: 1000px;*/
+	position: relative;
+	top: 5px;
+	text-align: center;
+	/*height: 250px;*/
+	background-image: url(../Img/Header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	max-width: 1000px;
+	margin: auto;
+	
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	/*text-align: center;*/
+}
+header h1 {
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	font-size: 38px;
+	/* 16 px is equivalent to 12pt font */
+	/*background-color: rgba(205, 92, 92, 0.5);*/
+	/*height: 60%;*/
+	width: 100%;
+	/*text-align: center;*/
+	/*position: relative;*/
+	/*position: .5vw;*/
+}
+
+
+
+.maincontent {
+	
+	display: flex;
+	justify-content:space-between;
+	flex: 1 1 50%;
+	position: relative;
+	top: 10px;
+	max-width: 1000px;
+	margin: auto;
+	padding:5px;
+	/*margin-top: 10px;*/
+	
+}
+
+.menu {
+	border: 1px solid black;
+	max-height: 500px;
+	max-width: 270px;
+	background-color: var(--color-palette3);
+	position: relative;
+	padding: inherit;
+	
+
+	/*flex: 1 1 50%;*/
+}
+.maincontent p {
+	font-family: 'Libre Baskerville', serif;
+	padding: 5px;
+	
+}
+.maincontent h1 h2 h3 h4 {
+	/*font-family: 'Libre Baskerville', serif;*/
+	padding: 5px;
+	
+}
+
+
+#copyright {
+	postion: fixed;
+	left: 10;
+	bottom:0;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+/*
+
+color palette:
+#b4d7d4 #314701 #6d8008 #fbcc38 #f5880d
+
+*/
+/*header {*/
+/*	margin-top: 1000px;*/
+/*	position: relative;*/
+/*	top: 120px;*/
+/*	text-align: center;*/
+	/*height: 250px;*/
+/*	background-image: url(../Img/Header.jpg);*/
+/*	background-repeat: no-repeat;*/
+/*	background-size: cover;*/
+/*	background-position: center;*/
+/*	background-color: rgba(0, 0, 0, 0.4);*/
+/*	text-align: center;*/
+/*}*/
+/*header h1 {*/
+	/*
+    only apply changes to the header paragraphs.
+    */
+/*	font-family: Verdana, Geneva, sans-serif;*/
+/*	font-size: 38px;*/
+	/* 16 px is equivalent to 12pt font */
+	/*background-color: rgba(205, 92, 92, 0.5);*/
+	/*height: 60%;*/
+/*	width: 100%;*/
+	/*text-align: center;*/
+	/*position: relative;*/
+	/*position: .5vw;*/
+/*}*/
+/*
+
+web safe fonts...for fancy fonts, create an image...make your header, saved as an image...alt is google fonts is free...
+we will use it on wednesday...
+w3schools.com
+web safe fonts
+
+p {
+font-family:"Times New Roman", Times
+}
+
+*/
